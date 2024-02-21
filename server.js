@@ -4,6 +4,6 @@ import app from "./src/app.js"; // importando a instancia do express
 const PORT = 3000;
 
 app.listen(PORT, () => { // iniciando servidor
-    console.log(`Servidor iniciado! na porta: ${PORT}`);
-})
+  console.log(`Servidor iniciado! na porta: ${PORT}`);
+});
 
